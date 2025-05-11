@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_unity_widget:
-    path: /Users/a-kun/uaal_flutter_324/.local-plugins/flutter-unity-view-widget
+    path: .local-plugins/flutter-unity-view-widget
   pointer_interceptor: ^0.9.3+2
 
 dev_dependencies:
