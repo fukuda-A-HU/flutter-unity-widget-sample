@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unity", "unity", "{F2F4A18A-13DA-A99B-7F1B-2CF93E0D20FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets", "unity\vsnap_flutter\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj", "{CE2C1E11-A01C-7CEC-ED4D-1D055A0BEA43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor", "unity\vsnap_flutter\Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.csproj", "{EB63A99E-91B5-0A43-1C64-1A77A0BA4827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE2C1E11-A01C-7CEC-ED4D-1D055A0BEA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2C1E11-A01C-7CEC-ED4D-1D055A0BEA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2C1E11-A01C-7CEC-ED4D-1D055A0BEA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2C1E11-A01C-7CEC-ED4D-1D055A0BEA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB63A99E-91B5-0A43-1C64-1A77A0BA4827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB63A99E-91B5-0A43-1C64-1A77A0BA4827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB63A99E-91B5-0A43-1C64-1A77A0BA4827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB63A99E-91B5-0A43-1C64-1A77A0BA4827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE2C1E11-A01C-7CEC-ED4D-1D055A0BEA43} = {F2F4A18A-13DA-A99B-7F1B-2CF93E0D20FA}
+		{EB63A99E-91B5-0A43-1C64-1A77A0BA4827} = {F2F4A18A-13DA-A99B-7F1B-2CF93E0D20FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9CAFEE6-F42E-4329-942C-8820AE0D0ED5}
+	EndGlobalSection
+EndGlobal
