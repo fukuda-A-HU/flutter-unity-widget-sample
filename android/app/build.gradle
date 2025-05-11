@@ -5,10 +5,11 @@ plugins {
     id "dev.flutter.flutter-gradle-plugin"
 }
 
+// flutter. variables commented for backwards compatibility with Flutter 3.16 and 3.19.
 android {
-    namespace = "com.example.uaal_flutter_324"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.xraph.plugin.flutter_unity_widget_example"
+    compileSdk = 34 // flutter.compileSdkVersion
+    // ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -16,18 +17,19 @@ android {
     }
 
     kotlinOptions {
+        // if you change this value, also change it in android/build.gradle subprojects{}
         jvmTarget = JavaVersion.VERSION_1_8
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.uaal_flutter_324"
+        applicationId = "com.xraph.plugin.flutter_unity_widget_example"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        minSdk = 33 // flutter.minSdkVersion
+        targetSdk = 34 // flutter.targetSdkVersion
+        versionCode = 1 // flutter.versionCode
+        versionName = "1.0.0" // flutter.versionName
+        ndkVersion = "25.1.8937393"
     }
 
     buildTypes {
@@ -41,4 +43,9 @@ android {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    implementation project(':unityLibrary')
+    implementation project(':flutter_unity_widget')
 }
